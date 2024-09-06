@@ -1,0 +1,238 @@
+body {
+  background-color: #e5e5e5;
+  font-family: "Montserrat", sans-serif;
+}
+
+.project-section {
+    width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header {
+  background-color: #3f9599;
+  position: absolute;
+  top: 35px;
+  left: 0 !important;
+  width: 1200px;   
+ }
+
+.avatar {
+  width: 165px;
+  height: 165px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+  right: 50px;
+  position: absolute;
+  top: -12%;
+  z-index: 1;
+}
+
+/*Right section styles*/
+
+.right-section {
+  padding-left: 40px;
+  padding-right: 20px;
+  background-color: #ededf0;
+  width: 1800px;
+  text-align: justify;
+}
+
+.sectiune-despre-mine-profesie {
+  font-size: 20px;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  padding-left: 25px;
+  text-align: center;
+}
+
+#numePersoana {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  padding-left: 25px;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 40px auto;
+}
+
+.sectiune-despre-mine {
+  margin-top: 225px;
+}
+
+.sectiune-despre-mine p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  
+}
+
+.sectiune-proiecte {
+  margin-top: 40px;
+}
+
+.block-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-top: 50px;
+}
+
+.projects-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: none;
+  color: #595959;
+  margin-left: 10px;
+}
+
+.projects-item a {
+  color: #3f9599;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.sectiune-proiecte ol {
+  padding-left: 18px;
+}
+
+ol li,
+.bracket {
+  color: #000;
+  font-weight: 700;
+}
+
+.sectiune-experienta {
+  margin-top: 50px;
+}
+
+.work-experience-position {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.company {
+  color: #3f9599;
+}
+
+.work-experience-period {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+
+.line {
+  color: black;
+}
+
+.work-experience-description {
+  padding-left: 18px;
+}
+
+.work-experience-description li,
+.courses {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.education-section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.education-level {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #3f9599;
+}
+
+.education-speciality {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+/* STILURI SIDEBAR */
+
+.sectiune-sidebar {
+  background-color: #5b5b66;
+  width: 770px;
+}
+
+.sidebar-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #fff;
+}
+
+.sectiune-contacte-list {
+    display: flex;
+    gap: 10px;
+}
+
+.sectiune-contacte,
+.sectiune-tech-skills,
+.sectiune-soft-skills {
+  margin-left: 40px;
+  margin-top: 225px;
+  margin-right: 15px;
+}
+
+.sectiune-tech-skills, 
+.sectiune-soft-skills {
+    margin-top: 50px;
+}
+
+.sectiune-contacte-tip {
+  display: flex;
+  align-self: center;
+}
+
+.sectiune-contacte-tip svg {
+    fill: white;
+}
+
+.sectiune-contacte-valoare {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.sidebar-list {
+  color: #3f9599;
+  padding-left: 20px;
+}
+
+.sidebar-list span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
